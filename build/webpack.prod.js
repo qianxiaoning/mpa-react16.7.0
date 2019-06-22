@@ -92,6 +92,8 @@ module.exports = merge(common, {
         minChunks: 2,
         // 和不设类似，就是名字替换成1，2
         name: false
+        // 设置打包路径
+        // filename: 'static/common/[name]/[name].[hash:8].js'
         // 细分了依赖后打包速度略微加快，生产包大小成倍增大，不行
         // cacheGroups: {
         //   vendors: {

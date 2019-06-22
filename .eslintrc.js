@@ -77,6 +77,10 @@ module.exports = {
         // 写属性时还是单引号方便
         "jsx-quotes": [2, "prefer-single"],
         // 关闭对象文字或解构赋值的大括号内强制执行一致的换行符
-        "object-curly-newline": 0
+        "object-curly-newline": 0,
+        // 驼峰写法关闭
+        "camelcase": 0,
+        // 箭头函数返回要求关闭
+        "arrow-body-style": 0
     }    
 };

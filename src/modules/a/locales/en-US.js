@@ -1,3 +1,4 @@
-export default{
-    tip: 'hello,world'
+export default {
+    tip: 'hello,world',
+    loading: 'loading...'
 };

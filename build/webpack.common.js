@@ -115,7 +115,7 @@ module.exports={
             {
                 from: path.resolve(__dirname,"../static"),
                 // output.path中的位置
-                to: 'static',
+                to: '',
                 // 忽略.xxx等文件
                 ignore: ['.*']
             },         
